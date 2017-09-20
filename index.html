@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title> sankey diagram </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link href="style.css" rel="stylesheet">
+
+<body>
+  <div class="content">  
+    
+          <nav class="navbar navbar-default navbar-fixed-top ">
+       
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Amalytics</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          
+            
+            <ul class="nav navbar-nav pull-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> name@amalytics.co  <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Log out</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Edit Profile</a></li>
+                </ul>
+              </li>
+            </ul>
+        
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <aside class="admin-main-sidebar">
+      </aside>
+  
+      <section class="main">
+        <h1 class ="chart-title">Cost Flow</h1>
+        <h4 class ="chart-description">Cost Flow description</h4>
+        <div id="chart"></div>
+
+
+
+        <div id="g-tip" style="top: 574px; left: 539.719px;">
+<svg class="g-box" width="114" height="63">
+<path transform="translate(57,67)" d="M0,-6.5l5,-5H57v-55h-114v55H-5Z"></path>
+<rect></rect>
+</svg>
+      <div class="g-text">
+            <div class="g-state"><span class="g-rep" style="margin-left:1em;">LE001 <span class="g-rep" style="margin-left:1em;"> HR </div>
+            <div class="g-votes"><span>14</span></div>
+            <div class=""><span class="g-dem">200</span> Twh<span class="g-rep" style="margin-left:1em;">48.7%</span> </div>
+            </div>
+      </div>
+      </section>
+
+      
+
+     <p> </p>
+      
+
+  </div> <!-- end container -->
+</body>
+
+<script>
+
+</script>
+<script src="d3.v4.js" charset="utf-8"></script>
+<script src="d3-sankey.js" charset="utf-8"></script>
+<script src="viz.js"></script>
